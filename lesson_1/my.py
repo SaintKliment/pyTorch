@@ -45,3 +45,31 @@ import torch
 # result_mul = tensor1 * tensor2
 # print(result_mul)
 
+# tensor_a = torch.tensor([[1, 2], [3, 4]])
+# tensor_b = torch.tensor([[5, 6], [7, 8]])
+
+# result_mm = torch.mm(tensor_a, tensor_b)
+# print(result_mm)
+
+
+# tensor = torch.tensor([1, 2, 3, 4, 5])
+
+# # Поиск максимального значения
+# max_value = torch.max(tensor)
+# print(max_value)
+
+# # Среднее значение
+# mean_value = torch.mean(tensor.float())
+# print(mean_value)
+
+
+
+tensor = torch.tensor([[1, 2, 3], [4, 5, 6]])
+
+# Транспонирование
+tensor_transposed = tensor.t()
+print(tensor_transposed)
+
+# Перестановка осей
+tensor_permuted = tensor.permute(1, 0)
+print(tensor_permuted)
