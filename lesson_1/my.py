@@ -15,11 +15,15 @@ import torch
 # tensor_rand = torch.rand(4, 4)
 # print(tensor_rand)
 
-tensor_int = torch.tensor([1,2,3], dtype=torch.int32)
-print(tensor_int)
+# tensor_int = torch.tensor([1,2,3], dtype=torch.int32)
+# print(tensor_int)
 
-tensor_slice = torch.tensor([[1,2,3], [4,5,6]])
-last_el = tensor_slice[1, 2] # 6
-last_el2 = tensor_slice[1, 1] # 5
-last_el3 = tensor_slice[0, 2] # 3
-print(last_el, last_el2, last_el3)
+tensor_test = torch.tensor([[1,2,3], [4,5,6]])
+# last_el = tensor_test[1, 2] # 6
+# el2 = tensor_test[1, 1] # 5
+# el3 = tensor_test[0, 2] # 3
+# print(last_el, el2, el3)
+
+el_slice1 = tensor_test[0:2, 2:3]
+# el_slice2 = 
+print(el_slice1)
