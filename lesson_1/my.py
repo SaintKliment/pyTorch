@@ -28,8 +28,20 @@ import torch
 # el_slice2 = 
 # print(el_slice1)
 
-tensor_form = torch.tensor([1,2,3,4,5,6])
+# tensor_form = torch.tensor([1,2,3,4,5,6])
 
-tensor_deform = tensor_form.view(3,2)
-tensor_unsqueezed = tensor_form.unsqueeze(1)
-print(tensor_unsqueezed)
+# tensor_deform = tensor_form.view(3,2)
+# tensor_unsqueezed = tensor_form.unsqueeze(1)
+# print(tensor_unsqueezed)
+
+# tensor1 = torch.rand(1, 2)
+# tensor2 = torch.rand(1, 2)
+
+# print(tensor1, "\n", tensor2, "\n")
+
+# result_add = tensor1 + tensor2
+# print(result_add)
+
+# result_mul = tensor1 * tensor2
+# print(result_mul)
+
